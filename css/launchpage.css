@@ -35,13 +35,6 @@ html, body {
   letter-spacing: 7px;
 }
 
-#blueBar h2{
-  padding: 0.3em;
-  font-family: "Agency FB", Helvetica, sans-serif;
-  color: white;
-  text-align: center;
-  font-size: 6vh;
-}
 
 #blueBar p{
   padding: 0.5em;
@@ -121,8 +114,8 @@ align-content: left;
 }
 
 button{
-  margin: 10vh;
-  background-color: rgba(2, 20, 51,0.7);
+  margin-top: 77vh;
+  background-color: #36bdd8;
   border: none;
   color: white;
   padding: 25px 35px;
