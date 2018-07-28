@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  font-family: "Agency FB", Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+.topnav {
+  overflow: hidden;
+  background: linear-gradient(rgba(16,19,64,0.9), rgba(42,24,56,0.9));
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 30px;
+
+}
+
+.topnav a:hover {
+  background-color: #f9f1e0;
+  color: black;
+}
+
+.active {
+  background-color: #BBDEFF;
+  color: white;
+}
+
+.image{
+  position: relative;
+}
+
+h1{
+  position: absolute;
+  top: 200px;
+  text-align: center;
+  width: 100%;
+}
+
+@font-face {
+  font-family: AgencyFB
+  src: url(http://uncutbeatz.com/clear/fonts/AGENCYR.TTF.ttf);
+}
