@@ -12,6 +12,8 @@ html, body {
 }
 
 #blueBar{
+  animation-duration: 3s;
+  animation-name: slideinright;
   position: fixed;
   width: 30vw;
   height: 100vh;
@@ -54,6 +56,12 @@ html, body {
   z-index: 1;
   float:right;
   padding-top:3%;
+  animation-duration: 3s;
+  animation-name: slideinleft;
+}
+
+#blueBox:hover{
+  background: radial-gradient(rgba(2, 20, 51,0.9), rgba(11, 3, 30,0.9));
 }
 #blueBox h1{
   padding: 0.5em;
@@ -115,7 +123,7 @@ align-content: left;
 
 button{
   margin-top: 77vh;
-  background-color: #36bdd8;
+  background-color: rgba(54, 189, 216,0.5);
   border: none;
   color: white;
   padding: 25px 35px;
@@ -127,6 +135,28 @@ button{
 }
 
 button:hover {
-    background-color: rgb(255,207,39); /* Green */
-    color: rgb(2, 20, 51);
+    background-color: rgba(255,207,39,0.9);
+    /* color: rgba(2, 20, 51, 1); */
+}
+
+.animated {
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+@-webkit-keyframes fadeIn {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+}
+
+@keyframes fadeIn {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+}
+
+.fadeIn {
+  -webkit-animation-name: fadeIn;
+  animation-name: fadeIn;
 }
