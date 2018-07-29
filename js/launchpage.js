@@ -16,4 +16,5 @@ function myFunction(){
 function pressBtn(){
   let nick = prompt("Enter a nickname");
   console.log(nick);
+  
 }

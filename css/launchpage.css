@@ -160,3 +160,9 @@ button:hover {
   -webkit-animation-name: fadeIn;
   animation-name: fadeIn;
 }
+.on{
+  transition:2s;
+}
+.on:active{
+  transform:translateY(-100vh);
+}
