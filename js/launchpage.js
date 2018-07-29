@@ -3,7 +3,7 @@ if(x){
   x.addEventListener('click', myFunction);
 }
 else{
-  setTimeout(myFunction, 2000)
+  setTimeout(myFunction, 1000)
 }
 // let x = document.getElementById("playBtn")
 // x.addEventListener("click", myFunction);
