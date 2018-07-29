@@ -136,6 +136,7 @@ button{
 
 button:hover {
     background-color: rgba(255,207,39,0.9);
+    animation: bounce 1s;
     /* color: rgba(2, 20, 51, 1); */
 }
 
@@ -159,4 +160,21 @@ button:hover {
 .fadeIn {
   -webkit-animation-name: fadeIn;
   animation-name: fadeIn;
+}
+
+@keyframes bounce {
+	0%, 20%, 60%, 100% {
+		-webkit-transform: translateY(0);
+		transform: translateY(0);
+	}
+
+	40% {
+		-webkit-transform: translateY(-20px);
+		transform: translateY(-20px);
+	}
+
+	80% {
+		-webkit-transform: translateY(-10px);
+		transform: translateY(-10px);
+	}
 }
