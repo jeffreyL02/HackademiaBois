@@ -187,5 +187,5 @@ button:hover {
   transition:2s;
 }
 .on:active{
-  transform:translateY(-100vh);
+  transform:translateY(-200vh);
 }
